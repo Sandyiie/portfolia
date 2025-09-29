@@ -68,7 +68,8 @@
     background: linear-gradient(#000,#000) padding-box, var(--color-gradient) border-box
   }
   .btn:hover{ 
-   background: var(--color-gradient) padding-box, var(--color-gradient) border-box
+   background: var(--color-gradient) padding-box, var(--color-gradient) border-box;
+   color:white
   }
   .btn-light{ 
    background:  linear-gradient(#fff,#fff) padding-box, var(--color-gradient) border-box
