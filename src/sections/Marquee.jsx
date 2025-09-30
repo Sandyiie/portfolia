@@ -1,5 +1,5 @@
 import React from "react";
-import Star from "../assets/Images/star.png";
+import Star from "../assets/Images/star1.png";
 
 const Marquee = () => {
   return (
@@ -17,6 +17,20 @@ const Marquee = () => {
             CREATE <img src={Star} alt="" className="marquee-star1 w-[7vw]" />
             DESIGN <img src={Star} alt="" className="marquee-star1 w-[7vw]" />
             INSPIRE <img src={Star} alt="" className="marquee-star1 w-[7vw]" />
+          </span>
+        </div>
+        {/* {row 2} */}
+        <div
+          className="whitespace-nowrap animate-marquee-reverse text-6xl lg:text-[7vw]
+        font-heading font-semibold leading-[1] tracking-tight"
+        >
+          <span className=" flex gap-4 lg:gap-8 mx-8">
+            CREATE <img src={Star} alt="" className="marquee-star2 w-[7vw]" />
+            DESIGN <img src={Star} alt="" className="marquee-star2 w-[7vw]" />
+            INSPIRE <img src={Star} alt="" className="marquee-star2 w-[7vw]" />
+            CREATE <img src={Star} alt="" className="marquee-star2 w-[7vw]" />
+            DESIGN <img src={Star} alt="" className="marquee-star2 w-[7vw]" />
+            INSPIRE <img src={Star} alt="" className="marquee-star2 w-[7vw]" />
           </span>
         </div>
       </div>
