@@ -17,7 +17,10 @@ const Navbar = () => {
   });
   return (
     <>
-      <nav ref={navBarRef} className="fixed top-0 w-full mix-blend-difference">
+      <nav
+        ref={navBarRef}
+        className="fixed z-20 top-0 w-full mix-blend-difference"
+      >
         <div className="main-container py-6 flex justify-between items-center">
           <img src={Logo} alt="logo" className="h-10 w-auto" />
           <div className="flex flex-col gap-1.5 cursor-pointer">

@@ -10,67 +10,70 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 const Hero = () => {
   const heroRef = useRef(null);
 
-  useGSAP(() => {
-    ScrollTrigger.create({
-      trigger: heroRef.current,
-      start: "top top",
-      end: "bottom top",
-      pin: true,
-      pinSpacing: false,
-      scrub: 1,
-    });
+  useGSAP(
+    () => {
+      ScrollTrigger.create({
+        trigger: heroRef.current,
+        start: "top top",
+        end: "bottom top",
+        pin: true,
+        pinSpacing: false,
+        scrub: 1,
+      });
 
-    SplitText.create("h1", {
-      type: "lines, words",
-      mask: "lines",
-      autoSplit: true,
-      onSplit(self) {
-        gsap.from(self.words, {
-          y: 100,
-          opacity: 0,
-          stagger: 0.1,
-        });
-      },
-    });
-    SplitText.create("h2", {
-      type: "lines, words",
-      mask: "lines",
-      autoSplit: true,
-      onSplit(self) {
-        gsap.from(self.words, {
-          y: 100,
-          opacity: 0,
-          stagger: 0.15,
-          delay: 0.3,
-        });
-      },
-    });
+      SplitText.create("h1", {
+        type: "lines, words",
+        mask: "lines",
+        autoSplit: true,
+        onSplit(self) {
+          gsap.from(self.words, {
+            y: 100,
+            opacity: 0,
+            stagger: 0.1,
+          });
+        },
+      });
+      SplitText.create("h2", {
+        type: "lines, words",
+        mask: "lines",
+        autoSplit: true,
+        onSplit(self) {
+          gsap.from(self.words, {
+            y: 100,
+            opacity: 0,
+            stagger: 0.15,
+            delay: 0.3,
+          });
+        },
+      });
 
-    gsap.from(".gradient-btn", {
-      opacity: 0,
-      y: 40,
-      duration: 0.5,
-      ease: "power2.out",
-      delay: 1.25,
-    });
+      gsap.from(".gradient-btn", {
+        opacity: 0,
+        y: 40,
+        duration: 0.5,
+        ease: "power2.out",
+        delay: 1.25,
+      });
 
-    gsap.from(".star", {
-      scale: 0,
-      rotate: 180,
-      opacity: 0,
-      transformOrigin: "center center",
-      duration: 1.3,
-      ease: "back.Out(1.7)",
-      onComplete: () => {
-        gsap.to(".star", {
-          rotate: "+360",
-          duration: 20,
-          ease: "linear",
-          repeat: -1,
-        });
-      },
-    });
-  });
+      gsap.from(".star", {
+        scale: 0,
+        rotate: 180,
+        opacity: 0,
+        transformOrigin: "center center",
+        duration: 1.3,
+        ease: "back.Out(1.7)",
+        onComplete: () => {
+          gsap.to(".star", {
+            rotate: "+360",
+            duration: 20,
+            ease: "linear",
+            repeat: -1,
+          });
+        },
+      });
+    },
+    { scope: heroRef }
+  );
 
   return (
     <>
