@@ -61,8 +61,8 @@ const Work = () => {
               <a
                 key={id}
                 href={link}
-                className="relative rounded-2xl w-full min-w-
-              [340px] lg:min-w-xl h-64 lg:h-96 block overflow-hidden group:"
+                className="relative rounded-2xl w-full min-w-[340px] 
+                lg:min-w-xl h-64 lg:h-96 block overflow-hidden group:"
               >
                 <img
                   src={image}

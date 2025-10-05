@@ -8,7 +8,7 @@ const Services = () => {
           <h3>Services in Detail</h3>
         </div>
         <div className="relative">
-          <div className="bg-black text-white pt-16 lg:pt-20 pb-[40rem] sticky top-4">
+          <div className="bg-black text-white pt-16 lg:pt-20 pb-[40rem] sticky top-6">
             <div
               className="main-container grid grid-cols-1 md:grid-cols-2
                 gap-6 lg:gap-12 items-center"
@@ -37,7 +37,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#E9E9F0] text-black pt-16 lg:pt-20 pb-[23rem] sticky top-1/3 ">
+          <div className="bg-[#E9E9F0] text-black pt-16 lg:pt-20 pb-[23rem] sticky top-80 ">
             <div
               className="main-container grid grid-cols-1 md:grid-cols-2
                 gap-6 lg:gap-12 items-center"
@@ -66,7 +66,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white text-black py-16 lg:py-20 sticky top-2/3 ">
+          <div className="bg-white text-black py-16 lg:py-20 sticky top-4 ">
             <div
               className="main-container grid grid-cols-1 md:grid-cols-2
                 gap-6 lg:gap-12 items-center"

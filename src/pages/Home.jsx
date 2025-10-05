@@ -5,6 +5,7 @@ import Services from "../sections/Services";
 import Work from "../sections/Work";
 import Marquee from "../sections/Marquee";
 import CTA from "../components/CTA";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Work />
       <Marquee />
       <CTA />
+      <Projects />
     </>
   );
 };
