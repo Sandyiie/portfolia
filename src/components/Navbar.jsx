@@ -47,7 +47,7 @@ const Navbar = () => {
       {/* {full screen menu} */}
 
       <div
-        className={`fixed z-18 inset-0 bg-black text-white flex flex-col items-center justify-center
+        className={`fixed z-25 inset-0 bg-black text-white flex flex-col items-center justify-center
       gap-8 text-3xl transition-transform duration-500 ${
         menuOpen ? "translate-y-0" : " translate-y-full"
       }`}

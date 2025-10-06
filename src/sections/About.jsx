@@ -39,11 +39,10 @@ const About = () => {
           className="about-text main-container py-4 lg:py-12 h-full flex justify-center items-center font-heading text-black text-2xl leading-[1.2]
         md:text-3xl xl:text-5xl"
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt odio
-          fugiat, illum consectetur facere mollitia sit non, ratione accusantium
-          quam nobis accusamus eveniet soluta beatae nesciunt laboriosam, enim
-          a! Dolore! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Impedit
+          My approach combines creative design thinking with responsive
+          development to create seamless, user-focused experiences. I craft
+          intuitive interfaces that are both visually engaging and
+          high-performing using modern frontend tools.
         </div>
       </div>
     </>

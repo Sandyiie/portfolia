@@ -29,10 +29,10 @@ const Services = () => {
               {/* {rightside} */}
               <div className="flex items-center">
                 <p className="text-lg lg:text-xl leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi, voluptatum explicabo. Tempora esse, quam nesciunt
-                  porro molestias eum asperiores aperiam quo vitae facilis?
-                  Dolores, id itaque harum dolore laudantium error.
+                  Crafting modern, user-focused websites that blend clean design
+                  with seamless functionality. I create intuitive interfaces and
+                  engaging digital experiences with smart UI/UX and frontend
+                  development.
                 </p>
               </div>
             </div>
@@ -52,16 +52,17 @@ const Services = () => {
                   02
                 </span>
                 <h2 className="text-[8vw] md:text-6xl font-heading font-bold leading-[1]">
-                  Web Design <br /> & UI/UX
+                  Graphic <br /> Design
                 </h2>
               </div>
               {/* {rightside} */}
               <div className="flex items-center">
                 <p className="text-lg lg:text-xl leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi, voluptatum explicabo. Tempora esse, quam nesciunt
-                  porro molestias eum asperiores aperiam quo vitae facilis?
-                  Dolores, id itaque harum dolore laudantium error.
+                  Creating visually striking designs that communicate ideas
+                  clearly and effectively. From branding and illustrations to
+                  digital graphics, focusing on aesthetics, composition, and
+                  color to craft memorable visuals that resonate with the
+                  audience.
                 </p>
               </div>
             </div>
@@ -81,16 +82,16 @@ const Services = () => {
                   03
                 </span>
                 <h2 className="text-[8vw] md:text-6xl font-heading font-bold leading-[1]">
-                  Web Design <br /> & UI/UX
+                  Front-end <br /> Development
                 </h2>
               </div>
               {/* {rightside} */}
               <div className="flex items-center">
                 <p className="text-lg lg:text-xl leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eligendi, voluptatum explicabo. Tempora esse, quam nesciunt
-                  porro molestias eum asperiores aperiam quo vitae facilis?
-                  Dolores, id itaque harum dolore laudantium error.
+                  Building clean, responsive, and user-focused websites that
+                  combine intuitive UI/UX with modern frontend technologies.
+                  From wireframes to polished interfaces, ensuring every project
+                  is functional, engaging, and seamless across all devices.
                 </p>
               </div>
             </div>

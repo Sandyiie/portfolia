@@ -20,7 +20,7 @@ const Work = () => {
       ease: "linear",
       scrollTrigger: {
         trigger: workRef.current,
-        start: "center center",
+        start: "center 30%",
         end: () => `+=${projectsWidth}`,
         pin: true,
         scrub: 1,
@@ -33,7 +33,7 @@ const Work = () => {
     <>
       <div
         ref={workRef}
-        className="h-screen bg-white text-black py-24 lg:py-40"
+        className="h-[120vh] bg-white text-black py-24 lg:py-40"
       >
         {/* {title wrapper} */}
 
